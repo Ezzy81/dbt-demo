@@ -1,0 +1,11 @@
+dbt_quest:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      host: localhost
+      port: 3306
+      user: root
+      password: "Groovyzed1@r"  # remplace si ton mot de passe est différent
+      database: my_dbt_db
+      schema: my_dbt_db
